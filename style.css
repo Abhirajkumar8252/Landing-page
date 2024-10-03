@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(wp2506817.webp);
+    background-size: cover;
+    
+}
+.walpaper{
+    height: 100vh;
+    width: 100%;
+    /* background-color: black; */
+    border: 1px solid rgb(14, 1, 1);
+}
+.nav-bar{
+     height: 15%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.logo{
+    min-width: 5%; 
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+    min-width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(242, 253, 247);
+    border-bottom: 5px solid rgba(20, 19, 19, 0 );
+}
+.info:hover{
+    color: black;
+    border-bottom: 5px solid black;
+}
+.search-bar{
+    display: flex;
+    min-width: 12%; 
+    /* border: black 2px solid; */
+    border-radius: 12px;
+}
+.icon{
+    background-color: aliceblue;
+    height: 25px;
+    width: 20%;
+     padding-top: 5px; 
+    text-align: center;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    
+}
+input{
+    height: 30px;
+    width: 80%;
+    border: none;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+/* 2 */
+
+.container-box{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box-1{
+    margin-top: 4%;
+    height: 75%;
+    width: 43%;
+    /* border: 2px black solid;   */
+    /* justify-content: center; */
+}
+.box-2{
+    margin-top: 4%;
+    height: 80%;
+    width: 47%;
+    display: flex;
+    /* border: 2px black solid;  */
+    align-items: center;
+    justify-content: space-between;
+}
+.image-1{
+    height: 95%;
+    width: 32%;
+    border: 2px black solid;  
+    border-radius: 10px; 
+}
+.image-1:hover{
+    height: 100%;
+    border: 3px black solid;  
+}
+.image-container{
+    height: 45%;
+    /* border: 2px black solid; */
+    background-image: url(laptop-4k-nature-beautiful-valley-h5fqep8milob8i6u.jpg);
+    background-size: cover;
+}
+
+.image-2{
+    height: 95%;
+    width: 32%;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+.image-2:hover{
+    height: 100%;
+    border: 3px black solid;  
+}
+.lake{
+    height: 45%;
+    /* border: 2px black solid; */
+    background-image: url(images.jpeg);
+    background-size: cover;
+}
+
+.image-3{
+    height: 95%;
+    width: 32%;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+.image-3:hover{
+    height: 100%;
+    border: 3px black solid;  
+}
+.waterfall{
+    height: 45%;
+    /* border: 2px black solid; */
+    background-image:url(water.webp);
+    background-size: cover;
+}
+
+.text{
+    height: 55%;
+    /* background-color: rgba(232, 235, 237 ); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+h3{
+    color: rgb(215, 235, 252);
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    color: aliceblue;
+}
+.button{
+    height: 13%;
+    width: 45%;
+    background-color: rgb(200, 194, 119);
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.button:hover{
+    background-color: rgb(247, 231, 6);
+    border: 2px solid black;
+ }
+h1{
+    font-size: 309%;
+    margin-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first{
+    margin-top: 4%;
+    font-weight: 800;
+}
+.second{
+    color: aliceblue;
+}
+.third{
+    font-weight: 800;
+}
+.about-nature{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+.book-button{
+    height: 7%;
+    width: 17%;
+    margin-top: 3%;
+    margin-left: 5%;
+    background-color: rgb(200, 194, 119);
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.book-button:hover{
+   background-color: rgb(247, 231, 6);
+   border: 2px solid black;
+}
+.icons{
+    width: 50%;
+    height: 7%;
+    margin-top: 7%;
+    margin-left: 15%;
+    background-color: rgba(250, 252, 253, 0.2);
+    border-radius: 12px;
+    text-align: center;
+
+}
+.on-icon{
+    font-size: 23px;
+    margin-top: 1%;
+    margin-left: 10%;
+    color: rgba(230, 234, 238, 0.6);
+
+}
+.on-icon:hover{
+    color: rgb(249, 250, 252);
+}
